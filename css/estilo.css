@@ -1,3 +1,54 @@
 body {
     background: linear-gradient(120deg, #ffcc00, #ff6600);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    background: rgb(255,57,0);
+    background: linear-gradient(90deg,#ff0066,#ff3300)
+
+}
+
+.hero ,.info{
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+}
+
+button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 9px;
+    border-radius: 3px;
+    background-color: #ff0066;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #ce0052;
+}
+
+#img-olimpiada{
+    width: 40%;
+    height: auto;
+}
+
+footer{
+    background-color:  #333;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: orange;
 }
